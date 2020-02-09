@@ -46,10 +46,11 @@ public class Robot extends TimedRobot {
    * Note: Any example colors should be calibrated as the user needs, these
    * are here as a basic example.
    */
-  private final Color kBlueTarget = ColorMatch.makeColor(0.143, 0.427, 0.429);
-  private final Color kGreenTarget = ColorMatch.makeColor(0.197, 0.561, 0.240);
-  private final Color kRedTarget = ColorMatch.makeColor(0.561, 0.232, 0.114);
-  private final Color kYellowTarget = ColorMatch.makeColor(0.361, 0.524, 0.113);
+  // The order of numbers for makeColor is Red, Green, Blue
+  private final Color kBlueTarget = ColorMatch.makeColor(0.157471, 0.448242, 0.394287);
+  private final Color kGreenTarget = ColorMatch.makeColor(0.188721, 0.571777, 0.239502);
+  private final Color kRedTarget = ColorMatch.makeColor(0.426025, 0.399170, 0.174805);
+  private final Color kYellowTarget = ColorMatch.makeColor(0.320557, 0.558105, 0.121338);
 
   @Override
   public void robotInit() {
